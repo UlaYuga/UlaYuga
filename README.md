@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./.github/assets/hero.svg" alt="Alexander Ulanov — Ula Yuga" width="100%"/>
+<img src="./hero.svg" alt="Alexander Ulanov — Ula Yuga" width="100%"/>
 
 [![Telegram](https://img.shields.io/badge/@HilzHilzHilz-21262d?style=for-the-badge&logo=telegram&logoColor=f0f6fc&labelColor=161b22)](https://t.me/HilzHilzHilz)
 ![Location](https://img.shields.io/badge/BASED_IN-MOSCOW-21262d?style=for-the-badge&labelColor=161b22)
