@@ -1,97 +1,78 @@
 <div align="center">
 
-# 🔥 Alexander Ulanov
+<img src="./.github/assets/hero.svg" alt="Alexander Ulanov — Ula Yuga" width="100%"/>
 
-### Vibe Village Coding
-
-**Solo operator. Ships from Moscow. Keys stay private.**
-
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/HilzHilzHilz)
-![Location](https://img.shields.io/badge/Moscow-000000?style=for-the-badge&logo=googlemaps&logoColor=white)
-![Status](https://img.shields.io/badge/Status-Shipping-FF4500?style=for-the-badge)
+[![Telegram](https://img.shields.io/badge/@HilzHilzHilz-21262d?style=for-the-badge&logo=telegram&logoColor=f0f6fc&labelColor=161b22)](https://t.me/HilzHilzHilz)
+![Location](https://img.shields.io/badge/BASED_IN-MOSCOW-21262d?style=for-the-badge&labelColor=161b22)
+![Status](https://img.shields.io/badge/STATUS-SHIPPING-8B0000?style=for-the-badge&labelColor=161b22)
 
 </div>
 
 ---
 
-## What this profile is
-
-Content producer turned one-person product studio. I ship small, AI-native products across messenger platforms, VK, coffee, and esoterica.
-
-All repos here are **private by design** — they hold live API keys, tokens, and running infrastructure. No open source. This page is a business card.
-
-The portfolio lives in production.
+The repos are private because they run. Live keys, live infrastructure, live users. Nothing here to fork. The products are the proof.
 
 ---
 
-## 🚧 Currently Building
+## Currently building
 
 ### 🔒 FKNG-MARK
 
-**My Fucking Marketing Engine, you now.**
+> *My Fucking Marketing Engine, you now.*
 
-Production-grade launch engine for micro-SaaS products. Runs the full loop from deep competitor research to post-launch decision — solo, autonomous, in 48 hours.
+A launch engine for micro-SaaS. One brief in. Forty-eight hours later, out comes deep competitor research, channel strategy, content for VK, Telegram, OK and Dzen, published posts, collected metrics, and an auto-recommendation — kill, iterate, or scale.
 
-- Research agent on **Claude Opus 4.7** via Agent SDK
-- 4 Russian-market channels: VK, Telegram, OK, Dzen
-- Content hub with long-form SEO piped into Dzen via RSS
-- Auto-metrics across APIs + Yandex Webmaster
-- Short-link attribution, auto-decisions at T+48h
-- `Node.js` · `TypeScript strict` · `PostgreSQL` · `pg-boss` · `Next.js 15` · `Drizzle` · `Flux via Replicate` · `Dolphin Anty + Playwright`
+**How it's built.** Opus 4.7 runs the research agent through the Claude Agent SDK. Sonnet 4.6 runs strategy, long-form articles, and the decision layer. Haiku 4.5 runs the volume content. Flux handles imagery via Replicate. PostgreSQL and pg-boss carry the state and the queue. TypeScript strict, end-to-end.
 
-Private. Don't ask.
+V1 shipped in April. V2 is the production core — four weeks of build, tested on a live product in the portfolio.
+
+No open source on the roadmap.
 
 ---
 
-## 🚀 Shipped & Running
+## Shipped
 
-| Product | What it is | Where |
-|---|---|---|
-| **ULA Lab** | Pre-roast green coffee infusion modeling. 8-axis flavor prediction. | [ulalab.online](https://ulalab.online) |
-| **Гадалка** | Esoteric mini-app. AI-generated tarot, compatibility, name readings, dream decoder. | MAX messenger |
-| **FarmFun** | Casual farming clicker. Short loops, daily returns, PvP steals. | MAX messenger |
-| **Незнакомец** | Cinematic romance-thriller visual novel. 200 scenes, 3 endings. | VK Mini App |
-| **ULA Morta** | Concept coffee spin-off. Cassette packaging, dark medieval brand. | Limited release |
+**[ULA Lab](https://ulalab.online)** — Pre-roast infusion modeling for specialty coffee. Eighteen alcoholic agents, an eight-axis flavor model, confidence scoring. In CustDev with Q-graders right now.
 
----
+**Гадалка** — Esoteric mini-app inside MAX messenger. Tarot, compatibility, name analysis, dream decoder. No pre-written templates — every reading generated fresh. Launching into a market Telegram just vacated.
 
-## 🛠️ Stack
+**FarmFun** — Casual farming clicker for MAX. Built for women 35–55, three-to-four short sessions a day. Seasonal crops, PvP steals, deep-link friend mechanics. The full mobile-casual playbook, on a messenger platform.
 
-![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
-![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
-![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
-![Drizzle](https://img.shields.io/badge/-Drizzle_ORM-C5F74F?style=flat-square&logo=drizzle&logoColor=black)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![Claude](https://img.shields.io/badge/-Claude-D97757?style=flat-square&logo=anthropic&logoColor=white)
-![Replicate](https://img.shields.io/badge/-Replicate-000000?style=flat-square&logo=replicate&logoColor=white)
-![Yandex Cloud](https://img.shields.io/badge/-Yandex_Cloud-FF0000?style=flat-square&logo=yandexcloud&logoColor=white)
+**Незнакомец** — Cinematic romance-thriller visual novel for VK. Two hundred scenes, three chapters, three endings. ElevenLabs-voiced antagonist. Running in a genre where the competitors are using ten-year-old art.
 
-**AI-native by default.** Opus for research. Sonnet for strategy and long-form. Haiku for volume. Codex in the loop for implementation.
+**ULA Morta** — Dark-medieval coffee. Whisky-barrel infusion, cassette-format packaging, limited run. Where the coffee lab meets brand mythology.
 
 ---
 
-## 🧠 How I work
+## Stack
 
-- One-person studio. No team, no hiring, no meetings.
-- Ship first, polish on live users.
-- Written specs over deck slides.
-- Compliant-only distribution. No gray-hat, no multi-accounting.
-- If it can be automated with an API and a prompt, it gets automated.
+![TypeScript](https://img.shields.io/badge/TypeScript-21262d?style=for-the-badge&logo=typescript&logoColor=f0f6fc&labelColor=161b22)
+![Next.js](https://img.shields.io/badge/Next.js-21262d?style=for-the-badge&logo=next.js&logoColor=f0f6fc&labelColor=161b22)
+![Node.js](https://img.shields.io/badge/Node.js-21262d?style=for-the-badge&logo=node.js&logoColor=f0f6fc&labelColor=161b22)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-21262d?style=for-the-badge&logo=postgresql&logoColor=f0f6fc&labelColor=161b22)
+![Drizzle](https://img.shields.io/badge/Drizzle-21262d?style=for-the-badge&logo=drizzle&logoColor=f0f6fc&labelColor=161b22)
+![Docker](https://img.shields.io/badge/Docker-21262d?style=for-the-badge&logo=docker&logoColor=f0f6fc&labelColor=161b22)
+![Python](https://img.shields.io/badge/Python-21262d?style=for-the-badge&logo=python&logoColor=f0f6fc&labelColor=161b22)
+![Claude](https://img.shields.io/badge/Claude-21262d?style=for-the-badge&logo=anthropic&logoColor=f0f6fc&labelColor=161b22)
+![Replicate](https://img.shields.io/badge/Replicate-21262d?style=for-the-badge&logo=replicate&logoColor=f0f6fc&labelColor=161b22)
+![Yandex Cloud](https://img.shields.io/badge/Yandex_Cloud-21262d?style=for-the-badge&logo=yandexcloud&logoColor=f0f6fc&labelColor=161b22)
+
+Claude does the thinking. Codex does the typing. I do the decisions.
+
+Compliant distribution only. No grey-hat, no multi-accounting. The engine is legal-by-design.
 
 ---
 
-## 💬 Talk
+## Contact
 
-If you're building something AI-native, running a Russian-market product, or trading brand work for equity-interesting collabs — DMs open.
+Telegram is the fastest line. Brand work, product collaborations, conversations about solo building in Russian-speaking markets — all fair game.
 
-[![Telegram](https://img.shields.io/badge/@HilzHilzHilz-26A5E4?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/HilzHilzHilz)
+[![Telegram](https://img.shields.io/badge/@HilzHilzHilz-8B0000?style=for-the-badge&logo=telegram&logoColor=f0f6fc&labelColor=161b22)](https://t.me/HilzHilzHilz)
 
 ---
 
 <div align="center">
 
-*The code stays private. The products ship.*
+*Repos private. Products public. That's the whole deal.*
 
 </div>
