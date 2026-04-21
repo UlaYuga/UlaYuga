@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./ula.svg" alt="ULA" width="100%"/>
+<img src="./banner.svg" alt="ULA" width="100%"/>
 
 # Alexander Ulanov
 
