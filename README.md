@@ -3,7 +3,7 @@
 <img src="./bannerr.png" alt="ULA" width="100%"/>
 
 
-**One-person studio. Moscow. Seven products in flight, zero public code.**
+**One-person studio. Moscow. Seven products in flight, public demos live.**
 
 
 [![Telegram](https://img.shields.io/badge/@HilzHilzHilz-21262d?style=for-the-badge&logo=telegram&logoColor=f0f6fc&labelColor=161b22)](https://t.me/HilzHilzHilz)
@@ -14,7 +14,7 @@
 
 ---
 
-The repos are private because they run. Live keys, live infrastructure, live users. Nothing here to fork. The products are the proof.
+Core repos stay private because they run. Live keys, live infrastructure, live users. Public demo shells are linked below. The products are the proof.
 
 ---
 
@@ -30,7 +30,21 @@ A launch engine for micro-SaaS. One brief in. Forty-eight hours later, out comes
 
 V1 shipped in April 2026. V2 is the production core — four weeks of build, tested on a live product in the portfolio.
 
+**Demo:** [launch-engine-demo](https://ulayuga.github.io/launch-engine-demo/)
+
 No open source on the roadmap.
+
+---
+
+## Public demos
+
+| Project | Demo | Repository |
+|---|---|---|
+| **Гадалка** | [Open demo](https://ulayuga.github.io/Esoteric_MAX_Public/) | [Esoteric_MAX_Public](https://github.com/UlaYuga/Esoteric_MAX_Public) |
+| **Веселая Ферма** | [Open demo](https://ulayuga.github.io/farmfun-chat-demo/) | [farmfun-chat-demo](https://github.com/UlaYuga/farmfun-chat-demo) |
+| **Незнакомец** | [Open demo](https://ulayuga.github.io/Neznakomets-web/) | [Neznakomets-web](https://github.com/UlaYuga/Neznakomets-web) |
+| **ULA Lab** | [Open app](https://ulalab.online/) | Private |
+| **FKNG MARK** | [Open demo](https://ulayuga.github.io/launch-engine-demo/) | [launch-engine-demo](https://github.com/UlaYuga/launch-engine-demo) |
 
 ---
 
@@ -39,9 +53,9 @@ No open source on the roadmap.
 | Product | What it is | Where |
 |---|---|---|
 | **[ULA Lab](https://ulalab.online)** | A web tool that models how alcohol agents shift green coffee flavor before roasting. Eighteen-SKU catalog with provenance, eight-axis flavor prediction (peat, medicinal, oak, sweetness, coast, fruit, floral, spice), confidence scoring for every forecast, batch-CSV pipeline. Built for Q-graders, fermentation specialists, and coffee R\&D. Currently in CustDev interviews. | [ulalab.online](https://ulalab.online) |
-| **Гадалка** *(Fortune Teller)* | An esoteric mini-app inside MAX messenger. Four tools — compatibility, daily tarot, name analysis, dream decoder. No pre-written templates; every reading generated fresh by DeepSeek V3.2 via Yandex AI Studio. Paid unlocks through YooKassa СБП. Launching into a market Telegram just vacated — Russia banned it April 1, 2026, and the esoteric niche inside MAX is empty. Window of opportunity comparable to early Telegram. | MAX messenger |
-| **FarmFun** | A casual farming clicker for MAX. Built for women 35–55, three-to-four short sessions a day. Seasonal crops, plot unlocks, PvP steals, friend deep-links, weekly tournaments, streaks, push retention. Post-harvest AI advisor surfaces tips. Node.js, SQLite, Docker on Yandex Cloud. Monetization through plot upgrades and fertilizer packs. | MAX messenger |
-| **Незнакомец** *(The Stranger)* | A cinematic romance-thriller visual novel for VK Mini App. After a breakup, the heroine starts getting messages from Mark — who knows too much about her. Not horror, not melodrama — something in between. Two hundred scenes, three chapters, three endings. Player's VK name auto-injected into dialogue. Mark voiced via ElevenLabs TTS. Running in a genre dominated by ten-year-old pixel art. | VK Mini App |
+| **[Гадалка](https://ulayuga.github.io/Esoteric_MAX_Public/)** *(Fortune Teller)* | An esoteric mini-app inside MAX messenger. Four tools — compatibility, daily tarot, name analysis, dream decoder. No pre-written templates; every reading generated fresh by DeepSeek V3.2 via Yandex AI Studio. Paid unlocks through YooKassa СБП. Launching into a market Telegram just vacated — Russia banned it April 1, 2026, and the esoteric niche inside MAX is empty. Window of opportunity comparable to early Telegram. | [MAX demo](https://ulayuga.github.io/Esoteric_MAX_Public/) |
+| **[FarmFun](https://ulayuga.github.io/farmfun-chat-demo/)** | A casual farming clicker for MAX. Built for women 35–55, three-to-four short sessions a day. Seasonal crops, plot unlocks, PvP steals, friend deep-links, weekly tournaments, streaks, push retention. Post-harvest AI advisor surfaces tips. Node.js, SQLite, Docker on Yandex Cloud. Monetization through plot upgrades and fertilizer packs. | [Chat demo](https://ulayuga.github.io/farmfun-chat-demo/) |
+| **[Незнакомец](https://ulayuga.github.io/Neznakomets-web/)** *(The Stranger)* | A cinematic romance-thriller visual novel for VK Mini App. After a breakup, the heroine starts getting messages from Mark — who knows too much about her. Not horror, not melodrama — something in between. Two hundred scenes, three chapters, three endings. Player's VK name auto-injected into dialogue. Mark voiced via ElevenLabs TTS. Running in a genre dominated by ten-year-old pixel art. | [Web demo](https://ulayuga.github.io/Neznakomets-web/) |
 | **ULA Morta** | Debut coffee from the ULA brand. A concept object — intersection of taste, mythology, dark-medieval aesthetic, and packaging narrative. Laphroaig-10 barrel-soak on Honduras Washed beans, seventy-two-hour infusion, A/B/C variants in cupping. Cassette-format packaging in a Norelco case with five-panel J-card and vacuum-sealed 20g bag. Three-part narrative — Side A, Side B, Center. Limited first edition. | Limited release |
 | **ULA Honey Horse** *(coming)* | ULA's second coffee release. Honey-infused as the warm counterpart to Morta — if Morta is dark-medieval, whisky, smoke and ash, Honey Horse is sunlit paganism, wild grass, slow amber. Same barrel-infusion method, opposite mood. Currently in development, first lot planned for Summer 2026. | In development |
 
