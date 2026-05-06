@@ -3,7 +3,7 @@
 <img src="./bannerr.png" alt="ULA" width="100%"/>
 
 
-**One-person studio. Moscow. Seven products in flight, public demos live.**
+**One-person studio. Moscow. Eight products in flight, public demos live.**
 
 
 [![Telegram](https://img.shields.io/badge/@HilzHilzHilz-21262d?style=for-the-badge&logo=telegram&logoColor=f0f6fc&labelColor=161b22)](https://t.me/HilzHilzHilz)
@@ -19,6 +19,20 @@ Core repos stay private because they run. Live keys, live infrastructure, live u
 ---
 
 ## Currently building
+
+### 🔒 Promo Preflight
+
+> *Launch-readiness workspace for regulated promo campaigns.*
+
+An AI-assisted pre-launch QA workspace for iGaming promo operations. One campaign bundle in: offer math, terms, channel copy, GEO, localization, links, and owners. Out comes an 8-stage / 23-rule risk report, blocker table, owner handoff, Go/No-Go board, Slack-ready summary, and version-to-version blocker diff.
+
+**How it's built.** Next.js 16 App Router, React 19, TypeScript strict, Zod contracts at every product boundary, Tailwind custom UI, YAML-backed rule and owner artifacts, deterministic offline check engine, PostgreSQL schema ready for durable persistence, Railway deploy. LLM provider wiring exists, but the live demo runs offline by design: no raw campaign storage, no auth, no payments, no player-facing flow.
+
+**Live:** [promo-preflight-production.up.railway.app](https://promo-preflight-production.up.railway.app/)
+
+Repository stays private until the agent/config history is cleaned.
+
+---
 
 ### 🔒 FKNG-MARK
 
@@ -45,6 +59,7 @@ No open source on the roadmap.
 | **Незнакомец** | [Open demo](https://ulayuga.github.io/Neznakomets-web/) | [Neznakomets-web](https://github.com/UlaYuga/Neznakomets-web) |
 | **ULA Lab** | [Open app](https://ulalab.online/) | Private |
 | **FKNG MARK** | [Open demo](https://ulayuga.github.io/launch-engine-demo/) | [launch-engine-demo](https://github.com/UlaYuga/launch-engine-demo) |
+| **Promo Preflight** | [Open app](https://promo-preflight-production.up.railway.app/) | Private |
 
 ---
 
@@ -53,6 +68,7 @@ No open source on the roadmap.
 | Product | What it is | Where |
 |---|---|---|
 | **[ULA Lab](https://ulalab.online)** | A web tool that models how alcohol agents shift green coffee flavor before roasting. Eighteen-SKU catalog with provenance, eight-axis flavor prediction (peat, medicinal, oak, sweetness, coast, fruit, floral, spice), confidence scoring for every forecast, batch-CSV pipeline. Built for Q-graders, fermentation specialists, and coffee R\&D. Currently in CustDev interviews. | [ulalab.online](https://ulalab.online) |
+| **[Promo Preflight](https://promo-preflight-production.up.railway.app/)** | A launch-readiness workspace for regulated promo campaigns. Campaign bundle intake, 8-stage / 23-rule offline risk checks, blocker evidence, suggested fixes, owner matrix, Go/No-Go board, Slack-ready handoff, saved local runs, and version diffing. Built as a serious internal-tool study for iGaming promo operations, with no auth, no player-facing flow, and no raw campaign storage. | [Railway app](https://promo-preflight-production.up.railway.app/) |
 | **[Гадалка](https://ulayuga.github.io/Esoteric_MAX_Public/)** *(Fortune Teller)* | An esoteric mini-app inside MAX messenger. Four tools — compatibility, daily tarot, name analysis, dream decoder. No pre-written templates; every reading generated fresh by DeepSeek V3.2 via Yandex AI Studio. Paid unlocks through YooKassa СБП. Launching into a market Telegram just vacated — Russia banned it April 1, 2026, and the esoteric niche inside MAX is empty. Window of opportunity comparable to early Telegram. | [MAX demo](https://ulayuga.github.io/Esoteric_MAX_Public/) |
 | **[FarmFun](https://ulayuga.github.io/farmfun-chat-demo/)** | A casual farming clicker for MAX. Built for women 35–55, three-to-four short sessions a day. Seasonal crops, plot unlocks, PvP steals, friend deep-links, weekly tournaments, streaks, push retention. Post-harvest AI advisor surfaces tips. Node.js, SQLite, Docker on Yandex Cloud. Monetization through plot upgrades and fertilizer packs. | [Chat demo](https://ulayuga.github.io/farmfun-chat-demo/) |
 | **[Незнакомец](https://ulayuga.github.io/Neznakomets-web/)** *(The Stranger)* | A cinematic romance-thriller visual novel for VK Mini App. After a breakup, the heroine starts getting messages from Mark — who knows too much about her. Not horror, not melodrama — something in between. Two hundred scenes, three chapters, three endings. Player's VK name auto-injected into dialogue. Mark voiced via ElevenLabs TTS. Running in a genre dominated by ten-year-old pixel art. | [Web demo](https://ulayuga.github.io/Neznakomets-web/) |
@@ -67,6 +83,8 @@ No open source on the roadmap.
 ![Next.js](https://img.shields.io/badge/Next.js-21262d?style=for-the-badge&logo=next.js&logoColor=f0f6fc&labelColor=161b22)
 ![Node.js](https://img.shields.io/badge/Node.js-21262d?style=for-the-badge&logo=node.js&logoColor=f0f6fc&labelColor=161b22)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-21262d?style=for-the-badge&logo=postgresql&logoColor=f0f6fc&labelColor=161b22)
+![Zod](https://img.shields.io/badge/Zod-21262d?style=for-the-badge&logo=zod&logoColor=f0f6fc&labelColor=161b22)
+![Railway](https://img.shields.io/badge/Railway-21262d?style=for-the-badge&logo=railway&logoColor=f0f6fc&labelColor=161b22)
 ![Drizzle](https://img.shields.io/badge/Drizzle-21262d?style=for-the-badge&logo=drizzle&logoColor=f0f6fc&labelColor=161b22)
 ![Docker](https://img.shields.io/badge/Docker-21262d?style=for-the-badge&logo=docker&logoColor=f0f6fc&labelColor=161b22)
 ![Python](https://img.shields.io/badge/Python-21262d?style=for-the-badge&logo=python&logoColor=f0f6fc&labelColor=161b22)
