@@ -3,7 +3,7 @@
 <img src="./bannerr.png" alt="ULA" width="100%"/>
 
 
-**One-person studio. Moscow. Eight products in flight, public demos live.**
+**One-person studio. Moscow. Private product cores, public demos live.**
 
 
 [![Telegram](https://img.shields.io/badge/@HilzHilzHilz-21262d?style=for-the-badge&logo=telegram&logoColor=f0f6fc&labelColor=161b22)](https://t.me/HilzHilzHilz)
@@ -68,6 +68,7 @@ No open source on the roadmap.
 | Product | What it is | Where |
 |---|---|---|
 | **[ULA Lab](https://ulalab.online)** | A web tool that models how alcohol agents shift green coffee flavor before roasting. Eighteen-SKU catalog with provenance, eight-axis flavor prediction (peat, medicinal, oak, sweetness, coast, fruit, floral, spice), confidence scoring for every forecast, batch-CSV pipeline. Built for Q-graders, fermentation specialists, and coffee R\&D. Currently in CustDev interviews. | [ulalab.online](https://ulalab.online) |
+| **[FKNG MARK](https://ulayuga.github.io/launch-engine-demo/)** | A product-first marketing engine. Product candidate screening, competitor research, ICP and positioning, channel strategy, VK/Telegram/OK/article content generation, human review gates, scheduled publishing, metrics collection, and a 48-hour kill / iterate / continue decision loop. Core repo stays private because it runs live integrations. | [Demo](https://ulayuga.github.io/launch-engine-demo/) |
 | **[Promo Preflight](https://promo-preflight-production.up.railway.app/)** | A launch-readiness workspace for regulated promo campaigns. Campaign bundle intake, 8-stage / 23-rule offline risk checks, blocker evidence, suggested fixes, owner matrix, Go/No-Go board, Slack-ready handoff, saved local runs, and version diffing. Built as a serious internal-tool study for iGaming promo operations, with no auth, no player-facing flow, and no raw campaign storage. | [Railway app](https://promo-preflight-production.up.railway.app/) |
 | **[Гадалка](https://ulayuga.github.io/Esoteric_MAX_Public/)** *(Fortune Teller)* | An esoteric mini-app inside MAX messenger. Four tools — compatibility, daily tarot, name analysis, dream decoder. No pre-written templates; every reading generated fresh by DeepSeek V3.2 via Yandex AI Studio. Paid unlocks through YooKassa СБП. Launching into a market Telegram just vacated — Russia banned it April 1, 2026, and the esoteric niche inside MAX is empty. Window of opportunity comparable to early Telegram. | [MAX demo](https://ulayuga.github.io/Esoteric_MAX_Public/) |
 | **[FarmFun](https://ulayuga.github.io/farmfun-chat-demo/)** | A casual farming clicker for MAX. Built for women 35–55, three-to-four short sessions a day. Seasonal crops, plot unlocks, PvP steals, friend deep-links, weekly tournaments, streaks, push retention. Post-harvest AI advisor surfaces tips. Node.js, SQLite, Docker on Yandex Cloud. Monetization through plot upgrades and fertilizer packs. | [Chat demo](https://ulayuga.github.io/farmfun-chat-demo/) |
