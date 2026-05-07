@@ -20,6 +20,18 @@ Core repos stay private because they run. Live keys, live infrastructure, live u
 
 ## Currently building
 
+### 🔒 Recall
+
+> *AI CRM reactivation pipeline with personalized Runway video postcards.*
+
+An event-driven retention agent for consumer subscription products and international iGaming CRM teams. It scans dormant users, classifies cohorts deterministically, drafts script / CTA / visual prompts, routes every campaign through manager approval, generates motion-graphics video assets with Runway API, delivers through Telegram PoC adapters, and tracks the path from landing play to mock conversion.
+
+**How it's built.** FastAPI backend, SQLModel / SQLite mock CRM event bus, deterministic cohort classifier, LLM-assisted script generation, Runway Gen-4.5 video layer, TTS through Runway, ffmpeg stitching, Telegram Bot API delivery, Next.js dashboard, Next.js landing, ROI simulation. Built for the Runway API Hackathon, May 8-11, 2026.
+
+**Repository:** [recall-agent](https://github.com/UlaYuga/recall-agent)
+
+---
+
 ### 🔒 Promo Preflight
 
 > *Launch-readiness workspace for regulated promo campaigns.*
@@ -60,6 +72,7 @@ No open source on the roadmap.
 | **ULA Lab** | [Open app](https://ulalab.online/) | Private |
 | **FKNG MARK** | [Open demo](https://ulayuga.github.io/launch-engine-demo/) | [launch-engine-demo](https://github.com/UlaYuga/launch-engine-demo) |
 | **Promo Preflight** | [Open app](https://promo-preflight-production.up.railway.app/) | Private |
+| **Recall** | Demo in progress | [recall-agent](https://github.com/UlaYuga/recall-agent) |
 
 ---
 
@@ -70,6 +83,7 @@ No open source on the roadmap.
 | **[ULA Lab](https://ulalab.online)** | A web tool that models how alcohol agents shift green coffee flavor before roasting. Eighteen-SKU catalog with provenance, eight-axis flavor prediction (peat, medicinal, oak, sweetness, coast, fruit, floral, spice), confidence scoring for every forecast, batch-CSV pipeline. Built for Q-graders, fermentation specialists, and coffee R\&D. Currently in CustDev interviews. | [ulalab.online](https://ulalab.online) |
 | **[FKNG MARK](https://ulayuga.github.io/launch-engine-demo/)** | A product-first marketing engine. Product candidate screening, competitor research, ICP and positioning, channel strategy, VK/Telegram/OK/article content generation, human review gates, scheduled publishing, metrics collection, and a 48-hour kill / iterate / continue decision loop. Core repo stays private because it runs live integrations. | [Demo](https://ulayuga.github.io/launch-engine-demo/) |
 | **[Promo Preflight](https://promo-preflight-production.up.railway.app/)** | A launch-readiness workspace for regulated promo campaigns. Campaign bundle intake, 8-stage / 23-rule offline risk checks, blocker evidence, suggested fixes, owner matrix, Go/No-Go board, Slack-ready handoff, saved local runs, and version diffing. Built as a serious internal-tool study for iGaming promo operations, with no auth, no player-facing flow, and no raw campaign storage. | [Railway app](https://promo-preflight-production.up.railway.app/) |
+| **[Recall](https://github.com/UlaYuga/recall-agent)** | An AI CRM reactivation pipeline for personalized video postcards. Mock CRM events in, dormant cohorts out, then manager approval, Runway-generated motion graphics, Telegram PoC delivery, campaign landing tracking, and ROI simulation. Built as a Runway API Hackathon project and portfolio case for AI implementation in retention workflows. | [Repository](https://github.com/UlaYuga/recall-agent) |
 | **[Гадалка](https://ulayuga.github.io/Esoteric_MAX_Public/)** *(Fortune Teller)* | An esoteric mini-app inside MAX messenger. Four tools — compatibility, daily tarot, name analysis, dream decoder. No pre-written templates; every reading generated fresh by DeepSeek V3.2 via Yandex AI Studio. Paid unlocks through YooKassa СБП. Launching into a market Telegram just vacated — Russia banned it April 1, 2026, and the esoteric niche inside MAX is empty. Window of opportunity comparable to early Telegram. | [MAX demo](https://ulayuga.github.io/Esoteric_MAX_Public/) |
 | **[FarmFun](https://ulayuga.github.io/farmfun-chat-demo/)** | A casual farming clicker for MAX. Built for women 35–55, three-to-four short sessions a day. Seasonal crops, plot unlocks, PvP steals, friend deep-links, weekly tournaments, streaks, push retention. Post-harvest AI advisor surfaces tips. Node.js, SQLite, Docker on Yandex Cloud. Monetization through plot upgrades and fertilizer packs. | [Chat demo](https://ulayuga.github.io/farmfun-chat-demo/) |
 | **[Незнакомец](https://ulayuga.github.io/Neznakomets-web/)** *(The Stranger)* | A cinematic romance-thriller visual novel for VK Mini App. After a breakup, the heroine starts getting messages from Mark — who knows too much about her. Not horror, not melodrama — something in between. Two hundred scenes, three chapters, three endings. Player's VK name auto-injected into dialogue. Mark voiced via ElevenLabs TTS. Running in a genre dominated by ten-year-old pixel art. | [Web demo](https://ulayuga.github.io/Neznakomets-web/) |
@@ -89,7 +103,9 @@ No open source on the roadmap.
 ![Drizzle](https://img.shields.io/badge/Drizzle-21262d?style=for-the-badge&logo=drizzle&logoColor=f0f6fc&labelColor=161b22)
 ![Docker](https://img.shields.io/badge/Docker-21262d?style=for-the-badge&logo=docker&logoColor=f0f6fc&labelColor=161b22)
 ![Python](https://img.shields.io/badge/Python-21262d?style=for-the-badge&logo=python&logoColor=f0f6fc&labelColor=161b22)
+![FastAPI](https://img.shields.io/badge/FastAPI-21262d?style=for-the-badge&logo=fastapi&logoColor=f0f6fc&labelColor=161b22)
 ![Claude](https://img.shields.io/badge/Claude-21262d?style=for-the-badge&logo=anthropic&logoColor=f0f6fc&labelColor=161b22)
+![Runway](https://img.shields.io/badge/Runway-21262d?style=for-the-badge&logoColor=f0f6fc&labelColor=161b22)
 ![Replicate](https://img.shields.io/badge/Replicate-21262d?style=for-the-badge&logo=replicate&logoColor=f0f6fc&labelColor=161b22)
 ![Yandex Cloud](https://img.shields.io/badge/Yandex_Cloud-21262d?style=for-the-badge&logo=yandexcloud&logoColor=f0f6fc&labelColor=161b22)
 
