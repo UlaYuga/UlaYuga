@@ -32,17 +32,17 @@ An event-driven retention prototype for consumer subscription products and inter
 
 ---
 
-### 🔒 Promo Preflight
+### 🌐 Promo Preflight
 
 > *Launch-readiness workspace for regulated promo campaigns.*
 
 An AI-assisted pre-launch QA workspace for iGaming promo operations. One campaign bundle in: offer math, terms, channel copy, GEO, localization, links, and owners. Out comes an 8-stage / 23-rule risk report, blocker table, owner handoff, Go/No-Go board, Slack-ready summary, and version-to-version blocker diff.
 
-**How it's built.** Next.js 16 App Router, React 19, TypeScript strict, Zod contracts at every product boundary, Tailwind custom UI, YAML-backed rule and owner artifacts, deterministic offline check engine, PostgreSQL schema ready for durable persistence, Railway deploy. LLM provider wiring exists, but the live demo runs offline by design: no raw campaign storage, no auth, no payments, no player-facing flow.
+**How it's built.** Next.js 16 App Router, React 19, TypeScript strict, Zod contracts at every product boundary, Tailwind custom UI, YAML-backed rule and owner artifacts, deterministic check engine (no LLM in the default path), PostgreSQL persistence behind a versioned REST API with idempotent runs, transactional outbox to a queryable audit log and Telegram alerts, Dockerfile deploy on Railway. No auth, no payments, no raw campaign storage, no player-facing flow.
 
 **Live:** [promo-preflight-production.up.railway.app](https://promo-preflight-production.up.railway.app/)
 
-Repository stays private until the agent/config history is cleaned.
+**Repository:** [promo-preflight](https://github.com/UlaYuga/promo-preflight)
 
 ---
 
@@ -71,7 +71,7 @@ No open source on the roadmap.
 | **Незнакомец** | [Open demo](https://ulayuga.github.io/Neznakomets-web/) | [Neznakomets-web](https://github.com/UlaYuga/Neznakomets-web) |
 | **ULA Lab** | [Open app](https://ulalab.online/) | Private |
 | **FKNG MARK** | [Open demo](https://ulayuga.github.io/launch-engine-demo/) | [launch-engine-demo](https://github.com/UlaYuga/launch-engine-demo) |
-| **Promo Preflight** | [Open app](https://promo-preflight-production.up.railway.app/) | Private |
+| **Promo Preflight** | [Open app](https://promo-preflight-production.up.railway.app/) | [promo-preflight](https://github.com/UlaYuga/promo-preflight) |
 | **Recall** | Technical case / demo polish queued | [recall-agent](https://github.com/UlaYuga/recall-agent) |
 
 ---
